@@ -37,7 +37,8 @@
     }
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "prettier-config"
   ],
   "engines": {
     "node": ">=16",

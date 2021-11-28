@@ -1,0 +1,22 @@
+{
+  "name": "skywalker-prettier-config",
+  "version": "1.0.0",
+  "description": "custom prettier config",
+  "main": "index.json",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfanandriansyah1997/pnpm-example.git"
+  },
+  "keywords": [
+    "prettier",
+    "monorepo",
+    "pnpm"
+  ],
+  "author": "Irfan Andriansyah <irfanandriansyah10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfanandriansyah1997/pnpm-example/issues"
+  },
+  "homepage": "https://github.com/irfanandriansyah1997/pnpm-example#readme"
+}

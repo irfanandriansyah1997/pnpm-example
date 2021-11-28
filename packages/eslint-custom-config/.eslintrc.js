@@ -84,7 +84,7 @@ module.exports = {
         trailingComma: 'none'
       }
     ],
-    quotes: 0,
+    quotes: 2,
     'react-hooks/exhaustive-deps': 1,
     'react-hooks/rules-of-hooks': 2,
     'react/jsx-filename-extension': 0,
