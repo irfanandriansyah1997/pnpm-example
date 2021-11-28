@@ -1,0 +1,33 @@
+{
+  "name": "sample-helper-packages",
+  "version": "1.0.0",
+  "description": "create sample helper package on monorepo",
+  "main": "index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "better-npm-run": "^0.1.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfanandriansyah1997/pnpm-example.git"
+  },
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "typescript"
+  ],
+  "author": "irfanandriansyah10@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfanandriansyah1997/pnpm-example/issues"
+  },
+  "homepage": "https://github.com/irfanandriansyah1997/pnpm-example#readme"
+}
