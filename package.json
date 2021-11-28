@@ -1,0 +1,47 @@
+{
+  "name": "pnpm-example",
+  "version": "1.0.0",
+  "description": "create sample monorepo using pnpm",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "bnr bootstrap",
+    "init": "NO_POST_INSTALL=1 pnpm recursive install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfanandriansyah1997/pnpm-example.git"
+  },
+  "keywords": [
+    "pnpm",
+    "react",
+    "javascript"
+  ],
+  "author": "irfanandriansyah10@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfanandriansyah1997/pnpm-example/issues"
+  },
+  "homepage": "https://github.com/irfanandriansyah1997/pnpm-example#readme",
+  "devDependencies": {
+    "better-npm-run": "^0.1.1",
+    "eslint": "^8.3.0"
+  },
+  "betterScripts": {
+    "bootstrap": {
+      "command": "pnpm recursive install",
+      "env": {
+        "NO_POST_INSTALL": "1",
+        "BOOT_DEV": "0"
+      }
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8.1.0",
+    "pnpm": ">=6.23.2",
+    "yarn": ">=99.9.9 Please start using pnpm. Read the repo README"
+  }
+}
