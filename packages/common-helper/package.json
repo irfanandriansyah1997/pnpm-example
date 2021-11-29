@@ -11,7 +11,8 @@
   },
   "prettier": "skywalker-config/prettier.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint --ignore-path ../../.gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier --ignore-path ../../.gitignore \"src/**/*.+(ts|js|tsx)\" --write"
   },
   "repository": {
     "type": "git",

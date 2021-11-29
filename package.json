@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "bnr bootstrap",
+    "eslint": "bnr eslint",
     "init": "NO_POST_INSTALL=1 pnpm recursive install"
   },
   "repository": {
@@ -32,6 +33,30 @@
   "betterScripts": {
     "bootstrap": {
       "command": "pnpm recursive install",
+      "env": {
+        "NO_POST_INSTALL": "1",
+        "BOOT_DEV": "0"
+      }
+    },
+    "eslint": {
+      "command": "sh etc/runner/script.sh -t eslint"
+    },
+    "eslint:skywalker-helper": {
+      "command": "bnr eslint -p skywalker-helper",
+      "env": {
+        "NO_POST_INSTALL": "1",
+        "BOOT_DEV": "0"
+      }
+    },
+    "eslint:skywalker-config": {
+      "command": "bnr eslint -p skywalker-config",
+      "env": {
+        "NO_POST_INSTALL": "1",
+        "BOOT_DEV": "0"
+      }
+    },
+    "eslint:eslint-config-custom-skywalker": {
+      "command": "bnr eslint -p eslint-config-custom-skywalker",
       "env": {
         "NO_POST_INSTALL": "1",
         "BOOT_DEV": "0"
