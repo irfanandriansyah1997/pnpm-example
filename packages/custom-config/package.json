@@ -1,8 +1,7 @@
 {
-  "name": "skywalker-prettier-config",
+  "name": "skywalker-config",
   "version": "1.0.0",
-  "description": "custom prettier config",
-  "main": "index.json",
+  "description": "custom config",
   "devDependencies": {},
   "repository": {
     "type": "git",
